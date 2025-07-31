@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Alice Johnson", "age": 30, "department": "Engineering", "skills": ["Python", "Spark", "SQL"], "salary": 95000, "address": { "city": "San Francisco", "state": "CA" } },
+  { "id": 2, "name": "Bob Singh", "age": 34, "department": "Marketing", "skills": ["SEO", "Content", "Analytics"], "salary": 72000, "address": { "city": "New York", "state": "NY" } },
+  { "id": 3, "name": "Charlie Patel", "age": null, "department": "Finance", "skills": [], "salary": 82000, "address": { "city": "Chicago", "state": "IL" } },
+  { "id": 4, "name": "Diana Wang", "age": 28, "department": "Engineering", "skills": ["Java", "Scala"], "salary": 88000, "address": { "city": "Seattle", "state": "WA" } },
+  { "id": 5, "name": "Ethan Gomez", "age": 25, "department": null, "skills": ["Excel", "Tableau"], "salary": 60000, "address": { "city": "Austin", "state": "TX" } }
+]
