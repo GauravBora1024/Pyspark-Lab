@@ -21,7 +21,7 @@ stationTemps = df.filter(df.measure_type == "TMIN").select("stationId","temperat
 minTempByStation = stationTemps.groupBy("stationId").min("temperature")
 
 # convert the temperature to fahrenheit and sort the dataSet
-minTempsByStationF = minTempByStation.withColumn("temperature", func.round(func.col("min(temperature)")*0.1*(9/5)+32,2)).select("stationId","temperature").sort("temperature")
+minTempsByStationF = minTempByStation.withColumn("temperature", func.round(func.col("min(temperature)")*0.1*(9/5)+32,2)).select("stationId","temperature").sort("temperature",ascending = False)
 
 results = minTempsByStationF.collect()
 
@@ -37,5 +37,12 @@ result =
 
 ITE00100554     5.36F
 EZE00100082     7.70F
+
+
+
+for ascending = False 
+
+EZE00100082     7.70F
+ITE00100554     5.36F
 
 '''
