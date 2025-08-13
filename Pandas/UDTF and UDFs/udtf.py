@@ -89,3 +89,4 @@ spark.sql(
 # |Learning #AI with #ML |       #ML |
 # | Explore #DataScience | #DataScience |
 # +------------------+-------------+
+spark.stop()
