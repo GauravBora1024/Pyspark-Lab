@@ -1,0 +1,6 @@
+1 2 3 4         # Spider-Man knows Hulk, Thor, Iron Man
+2 1 5           # Hulk knows Spider-Man, Black Widow
+3 1 6           # Thor knows Spider-Man, Adam
+4 1             # Iron Man knows Spider-Man
+5 2             # Black Widow knows Hulk
+6 3             # Adam knows Thor
